@@ -1,0 +1,75 @@
+{
+  "sin_meta": {
+    "Europea (p=18/37)": {
+      "P_ruina_en_4000": 0.9819935638462189,
+      "lambda": 0.9993437616525339,
+      "semi_vida_rondas": 1055.896418537442
+    },
+    "Americana (p=18/38)": {
+      "P_ruina_en_4000": 0.9998143931350244,
+      "lambda": 0.998257598729011,
+      "semi_vida_rondas": 397.4647782400052
+    },
+    "Ventaja jugador (p=0.52)": {
+      "P_ruina_en_4000": 0.20186700250816822,
+      "lambda": 0.9999989243301446,
+      "semi_vida_rondas": 644386.1973771236
+    }
+  },
+  "martingala_exacta_europea_limite100": {
+    "juego": "Europea (p=18/37)",
+    "limite_mesa": 100,
+    "P_ruina": 0.5792785447804983,
+    "T_esperado": 158.23320947481014
+  },
+  "tabla_N50": [
+    {
+      "juego": "Europea (p=18/37)",
+      "N": 50,
+      "i": 25,
+      "P_ruina_FR": 0.7944042387716077,
+      "P_ruina_formula": 0.794404238771609,
+      "P_meta_FR": 0.20559576122839068,
+      "T_esperado_F": 544.6478417274778,
+      "T_formula": 544.647841727478,
+      "err_max_ruina": 1.4432899320127035e-15,
+      "err_max_tiempo": 1.1937117960769683e-12
+    },
+    {
+      "juego": "Americana (p=18/38)",
+      "N": 50,
+      "i": 25,
+      "P_ruina_FR": 0.9330187702368443,
+      "P_ruina_formula": 0.933018770236826,
+      "P_meta_FR": 0.06698122976317562,
+      "T_esperado_F": 411.36783172499037,
+      "T_formula": 411.36783172498383,
+      "err_max_ruina": 2.2093438190040615e-14,
+      "err_max_tiempo": 9.265477274311706e-12
+    },
+    {
+      "juego": "Justo (p=0.5)",
+      "N": 50,
+      "i": 25,
+      "P_ruina_FR": 0.49999999999999584,
+      "P_ruina_formula": 0.5,
+      "P_meta_FR": 0.4999999999999963,
+      "T_esperado_F": 624.9999999999953,
+      "T_formula": 625.0,
+      "err_max_ruina": 4.440892098500626e-15,
+      "err_max_tiempo": 4.888534022029489e-12
+    },
+    {
+      "juego": "Ventaja jugador (p=0.52)",
+      "N": 50,
+      "i": 25,
+      "P_ruina_FR": 0.11909086679727503,
+      "P_ruina_formula": 0.11909086679727492,
+      "P_meta_FR": 0.8809091332027218,
+      "T_esperado_F": 476.13641650340514,
+      "T_formula": 476.1364165034057,
+      "err_max_ruina": 9.43689570931383e-16,
+      "err_max_tiempo": 9.094947017729282e-13
+    }
+  ]
+}
