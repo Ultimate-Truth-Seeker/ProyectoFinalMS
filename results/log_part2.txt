@@ -1,0 +1,33 @@
+/Users/macbookproroberto/Documents/ProyectoFinalMS/experiments/run_part2.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  d["asimetria_capital_final"] = float(stats.skew(pob.capital))
+/Users/macbookproroberto/Documents/ProyectoFinalMS/experiments/run_part2.py:81: RuntimeWarning: Precision loss occurred in moment calculation due to catastrophic cancellation. This occurs when the data are nearly identical. Results may be unreliable.
+  d["asimetria_capital_final"] = float(stats.skew(pob.capital))
+validacion {'max_abs_err_ruina': 0.011452861101703293, 'frac_dentro_IC95': 0.9583333333333334, 'max_rel_err_T': 0.031086880359473365, 'n_agentes': 20000}
+   limite  ruina_exacta  ruina_sim  T_exacto     T_sim
+0       8        0.7694     0.7689  776.8053  777.8356
+1      16        0.6733     0.6765  416.5356  413.7789
+2      32        0.6098     0.6055  232.3333  233.4878
+3     100        0.5793     0.5750  158.2332  158.5084
+                          p_ruina  ...  perdida_por_unidad_apostada
+estrategia                         ...                             
+Apuesta fija                0.996  ...                        0.027
+Martingala                  0.577  ...                        0.026
+Anti-Martingala (Paroli)    0.916  ...                        0.027
+Porcentaje fijo             0.771  ...                        0.027
+Kelly                       0.000  ...                          NaN
+Falacia del jugador         0.870  ...                        0.027
+Persecucion de perdidas     0.636  ...                        0.027
+
+[7 rows x 8 columns]
+{'martingala': {'p_meta': 0.8891, 'p_ruina': 0.1109, 'capital_medio': 97.801, 'capital_mediano': 110.0}, 'fija': {'p_meta': 0.5799, 'p_ruina': 0.4201, 'capital_medio': 63.789, 'capital_mediano': 110.0}}
+                               p_ruina  ...  duracion_media
+estrategia                              ...                
+Apuesta fija 1u                  0.000  ...        7478.253
+Martingala (limite 100)          0.606  ...         410.001
+Porcentaje 5%                    0.036  ...        1588.738
+Porcentaje 20% (sobreapuesta)    0.604  ...         181.671
+Medio Kelly (2%)                 0.000  ...        2339.552
+Kelly completo (4%)              0.005  ...        1704.693
+Doble Kelly (8%)                 0.234  ...        1021.370
+
+[7 rows x 6 columns]
