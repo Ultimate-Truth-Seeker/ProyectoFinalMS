@@ -1,0 +1,40 @@
+{
+  "metricas": [
+    {
+      "topologia": "ER",
+      "modularidad": 0.38621526666666667,
+      "n_comunidades": 11.7,
+      "clustering_medio": 0.01299255504729189,
+      "camino_medio": 3.6703386773547093,
+      "rho_grado": -0.048265314202039535,
+      "rho_intermediacion": -0.04359523579512611,
+      "rho_cercania": -0.0493190816427913,
+      "rho_agrupamiento": -0.02405737707885003,
+      "rho_riqueza_comunidad": 0.10428255929308991
+    },
+    {
+      "topologia": "WS",
+      "modularidad": 0.7298142000000001,
+      "n_comunidades": 7.0,
+      "clustering_medio": 0.4474688888888889,
+      "camino_medio": 5.4493122244488985,
+      "rho_grado": -0.014969895861155661,
+      "rho_intermediacion": -0.024872402041446286,
+      "rho_cercania": -0.025807174886731753,
+      "rho_agrupamiento": 0.02009610522892738,
+      "rho_riqueza_comunidad": 0.02277013751933667
+    },
+    {
+      "topologia": "BA",
+      "modularidad": 0.38408113559514934,
+      "n_comunidades": 11.7,
+      "clustering_medio": 0.052200515485418056,
+      "camino_medio": 3.2363607214428853,
+      "rho_grado": -0.03666443049238692,
+      "rho_intermediacion": -0.0294239318963511,
+      "rho_cercania": 0.02970590496429598,
+      "rho_agrupamiento": 0.018439945792711594,
+      "rho_riqueza_comunidad": 0.07836773992765719
+    }
+  ]
+}

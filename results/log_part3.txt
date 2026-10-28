@@ -1,0 +1,63 @@
+                                             0       1       2
+topologia                                   ER      WS      BA
+ruina_final_imitando                     0.763   0.739   0.673
+ruina_final_sin_imitar                   0.345   0.346   0.345
+capital_medio_imitando                  46.566   49.04  42.357
+capital_medio_sin_imitar                63.576  63.395  62.909
+ruina_ic95                               0.005   0.007   0.011
+share_final_Apuesta fija                 0.003   0.001   0.002
+share_final_Martingala                   0.792   0.744   0.642
+share_final_Anti-Martingala (Paroli)     0.007   0.012   0.008
+share_final_Porcentaje fijo              0.111   0.129   0.244
+share_final_Persecucion de perdidas      0.084   0.113   0.102
+share_final_No apostar                   0.003     0.0   0.001
+share_inicial_Apuesta fija               0.169   0.168   0.166
+share_inicial_Martingala                 0.169   0.166   0.166
+share_inicial_Anti-Martingala (Paroli)   0.165   0.166   0.168
+share_inicial_Porcentaje fijo            0.163   0.164   0.166
+share_inicial_Persecucion de perdidas    0.166   0.168   0.166
+share_inicial_No apostar                 0.167   0.168   0.168
+martingala_pico                          0.792   0.744   0.642
+epoca_pico_martingala                       40      40      40
+   topologia              semilla  grado_semilla  martingala_max_share  martingala_share_final  martingala_share_epoca10  epoca_al_25pct  prob_alcanza_10pct  ruina_final
+0         ER   hub (grado maximo)          14.46                 0.815                   0.814                     0.567           12.48                0.83        0.656
+1         ER        hub presumido          14.46                 0.814                   0.814                     0.576           12.41                0.83        0.656
+2         ER            aleatorio           6.07                 0.804                   0.804                     0.420           14.23                0.82        0.644
+3         ER  hoja (grado minimo)           1.00                 0.452                   0.452                     0.111           27.53                0.46        0.361
+4         WS   hub (grado maximo)           8.84                 0.779                   0.779                     0.145           18.58                0.79        0.595
+5         WS        hub presumido           8.84                 0.780                   0.780                     0.155           18.24                0.79        0.598
+6         WS            aleatorio           6.10                 0.804                   0.804                     0.089           19.79                0.82        0.598
+7         WS  hoja (grado minimo)           3.72                 0.700                   0.700                     0.071           22.78                0.72        0.523
+8         BA   hub (grado maximo)          67.42                 0.755                   0.755                     0.654           12.59                0.77        0.615
+9         BA        hub presumido          67.42                 0.814                   0.814                     0.684           10.59                0.83        0.659
+10        BA            aleatorio           5.94                 0.764                   0.764                     0.451           14.99                0.78        0.613
+11        BA  hoja (grado minimo)           2.92                 0.706                   0.705                     0.406           17.21                0.72        0.568
+topologia                  ER     WS      BA
+modularidad             0.386  0.730   0.384
+n_comunidades          11.700  7.000  11.700
+clustering_medio        0.013  0.447   0.052
+camino_medio            3.670  5.449   3.236
+rho_grado              -0.048 -0.015  -0.037
+rho_intermediacion     -0.044 -0.025  -0.029
+rho_cercania           -0.049 -0.026   0.030
+rho_agrupamiento       -0.024  0.020   0.018
+rho_riqueza_comunidad   0.104  0.023   0.078
+   topologia              intervencion  ruina_final  capital_medio_final  capital_ic95  apostado_medio  martingala_final  no_apostar_final
+0         ER          Base (limite 64)        0.762               46.410         1.535        1978.186             0.792             0.002
+1         ER          Limite de mesa 8        0.556               40.368         0.820        2194.739             0.461             0.001
+2         ER          Limite de mesa 2        0.196               57.279         0.409        1591.876             0.077             0.000
+3         ER     5 informantes en hubs        0.720               51.859         1.174        1775.609             0.751             0.082
+4         ER    20 informantes en hubs        0.635               63.422         1.365        1336.065             0.667             0.222
+5         ER  Limite 8 + 5 informantes        0.508               47.039         0.827        1977.983             0.439             0.116
+6         WS          Base (limite 64)        0.740               50.842         1.588        1898.168             0.747             0.000
+7         WS          Limite de mesa 8        0.559               43.819         0.966        2111.193             0.472             0.000
+8         WS          Limite de mesa 2        0.194               57.734         0.489        1576.131             0.124             0.000
+9         WS     5 informantes en hubs        0.705               53.776         1.347        1761.478             0.711             0.055
+10        WS    20 informantes en hubs        0.625               60.026         1.342        1454.121             0.612             0.186
+11        WS  Limite 8 + 5 informantes        0.520               47.331         0.853        1975.199             0.449             0.070
+12        BA          Base (limite 64)        0.672               41.916         1.548        2176.240             0.656             0.001
+13        BA          Limite de mesa 8        0.457               38.585         0.958        2291.781             0.277             0.000
+14        BA          Limite de mesa 2        0.165               56.915         0.567        1599.511             0.050             0.000
+15        BA     5 informantes en hubs        0.613               64.578         1.409        1306.027             0.639             0.246
+16        BA    20 informantes en hubs        0.457               76.947         1.120         833.357             0.458             0.459
+17        BA  Limite 8 + 5 informantes        0.362               59.908         0.852        1502.341             0.295             0.358
