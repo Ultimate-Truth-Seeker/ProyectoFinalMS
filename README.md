@@ -1,3 +1,7 @@
+# Video Explicativo
+
+[Enlace a Youtube](https://youtu.be/GAGw2TkokRE)
+
 # La ruina del jugador y la estrategia de apuestas: Cadenas de Markov, ABM y Redes
 
 Proyecto Final de Modelación y Simulación (Universidad del Valle de Guatemala).

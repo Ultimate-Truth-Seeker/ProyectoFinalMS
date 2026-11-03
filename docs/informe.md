@@ -92,7 +92,7 @@ Se usó Claude Code (modelo Sonnet 5.5) como asistente de programación y redacc
 | 4 | (Iteración) Intervención de límite de mesa en la red. | Reducir el límite de 64 a 8 baja la ruina pero *no* sube la riqueza media. | Inicialmente parecía un error; se comprobó con el total apostado (sube con límite 8) y coincide con la identidad de Wald. Se reporta tal cual. |
 | 5 | Selección del vecino imitado y semilla en nodos aislados. | La "hoja" en ER eligía nodos de grado 0 (no pueden difundir nada). | Corregido: la hoja es el nodo de grado mínimo $\ge1$. |
 
-La IA no sustituye la comprensión: las fórmulas, el diseño de la dinámica de imitación y la interpretación se revisaron manualmente, y los resultados que contradecían la intuición (puntos 3–4) se investigaron antes de aceptarlos. **[El grupo debe agregar aquí sus propios prompts adicionales y su evaluación.]**
+La IA no sustituye la comprensión: las fórmulas, el diseño de la dinámica de imitación y la interpretación se revisaron manualmente, y los resultados que contradecían la intuición (puntos 3–4) se investigaron antes de aceptarlos. 
 
 # 6. Resultados
 
